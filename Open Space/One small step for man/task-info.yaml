@@ -1,0 +1,18 @@
+type: edu
+custom_name: One small step for man...
+files:
+  - name: src/index.html
+    visible: true
+    learner_created: false
+  - name: hstest/test.js
+    visible: false
+    learner_created: false
+  - name: src/style.css
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/projects/143/stages/773/implement#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 29 Aug 2024 10:29:34 UTC"
+record: 3

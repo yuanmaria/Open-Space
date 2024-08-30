@@ -1,0 +1,160 @@
+hyperskill_project:
+  id: 143
+  ide_files: https://cogniterra.org/media/attachments/lesson/25280/additional_files.json
+  is_template_based: false
+  use_ide: true
+update_date: "Thu, 29 Aug 2024 10:31:46 UTC"
+stages:
+  - id: 771
+    step: 11733
+    is_completed: true
+  - id: 772
+    step: 11734
+    is_completed: true
+  - id: 773
+    step: 11735
+    is_completed: true
+  - id: 774
+    step: 11736
+    is_completed: true
+  - id: 775
+    step: 11737
+    is_completed: true
+topics:
+  0:
+    - title: Introduction to UI/UX
+      theory_id: 14603
+    - title: Layout grids
+      theory_id: 14922
+    - title: Interface elements
+      theory_id: 15253
+    - title: Colors
+      theory_id: 14914
+    - title: Block-level elements
+      theory_id: 7271
+    - title: Inline elements
+      theory_id: 7518
+    - title: What is CSS
+      theory_id: 7678
+    - title: HTML attributes id and class
+      theory_id: 7527
+    - title: Connecting CSS to HTML
+      theory_id: 7418
+    - title: Basic syntax
+      theory_id: 7722
+    - title: CSS Selectors
+      theory_id: 7738
+    - title: Relative units
+      theory_id: 10671
+    - title: Absolute units
+      theory_id: 10605
+    - title: Comments
+      theory_id: 7730
+    - title: Images
+      theory_id: 9237
+    - title: Tags and Attributes
+      theory_id: 7536
+    - title: HTML page structure
+      theory_id: 6491
+    - title: Comments
+      theory_id: 7502
+    - title: Position
+      theory_id: 11581
+    - title: Margin and Padding
+      theory_id: 26903
+    - title: Positioning properties
+      theory_id: 8204
+    - title: Width and Height
+      theory_id: 8325
+    - title: WebStorm
+      theory_id: 36802
+    - title: Border
+      theory_id: 8355
+    - title: RGB
+      theory_id: 8819
+    - title: Colors in CSS
+      theory_id: 7973
+    - title: Background
+      theory_id: 11670
+  1:
+    - title: Intro to HTML forms
+      theory_id: 6560
+    - title: Introduction to Flexbox
+      theory_id: 11760
+    - title: Orientation and Display order
+      theory_id: 11768
+    - title: "Flexibility, growth and contraction ratio"
+      theory_id: 18859
+    - title: Axis alignment
+      theory_id: 11784
+    - title: Pseudo-classes
+      theory_id: 9762
+    - title: Float
+      theory_id: 12697
+    - title: Clear
+      theory_id: 12705
+    - title: Intro to Lists
+      theory_id: 8178
+  2:
+    - title: Comments
+      theory_id: 8170
+    - title: Naming variables
+      theory_id: 8364
+    - title: Introduction to JavaScript
+      theory_id: 8016
+    - title: Writing first program
+      theory_id: 8154
+    - title: Multi-line programs
+      theory_id: 8162
+    - title: Declaring variables
+      theory_id: 8186
+    - title: Strings and numbers
+      theory_id: 8194
+    - title: Arithmetic operators
+      theory_id: 8372
+    - title: Boolean and Logical Operators
+      theory_id: 8471
+  3:
+    - title: DOM
+      theory_id: 8635
+    - title: Connecting JavaScript to HTML
+      theory_id: 7510
+    - title: Functions
+      theory_id: 8388
+    - title: Introduction to Objects
+      theory_id: 8588
+    - title: Defining functions
+      theory_id: 24012
+    - title: Anonymous function
+      theory_id: 26924
+    - title: Arrow Functions
+      theory_id: 8455
+    - title: Array
+      theory_id: 16141
+    - title: Array creation
+      theory_id: 16356
+    - title: Type Conversion
+      theory_id: 8380
+    - title: Comparison Operators
+      theory_id: 8580
+    - title: Conditional Operators
+      theory_id: 8889
+    - title: Intro to DOM events
+      theory_id: 10857
+    - title: DOM methods
+      theory_id: 8662
+    - title: The "addEventListener" method
+      theory_id: 8723
+    - title: Increment and Decrement
+      theory_id: 9102
+    - title: "Loops: for and for...in"
+      theory_id: 9119
+  4:
+    - title: Starting with git
+      theory_id: 10894
+    - title: Builtin JS Functions
+      theory_id: 24019
+    - title: setTimeout and setInterval
+      theory_id: 9680
+    - title: Window Object
+      theory_id: 9382

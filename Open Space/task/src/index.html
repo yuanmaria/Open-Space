@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Space</title>
+    <link rel="stylesheet" href="./style.css">
+    <script async>
+        const checkPassword = function () {
+            const password = document.getElementById("password");
+            const inputs = document.querySelectorAll("input");
+            if(password.value === "TrustNo1") {
+                inputs.forEach(function(item) {
+                    item.disabled = item.id === "password-cta" || item.id === "password" || item.id === "launch";
+                    if(item.type === "checkbox" || item.type === "range") {
+                        item.onchange = function () {
+                            checkReady();
+                        }
+                    }
+                });
+            }
+        }
+        const launch = function () {
+            console.log("click launch")
+            const rocket = document.querySelector(".rocket");
+            rocket.animate([
+                { // from
+                    left: '25vw',
+                    bottom: '23vw'
+                },
+                { // to
+                    left: '70vw',
+                    bottom: '100vh'
+                }
+            ], {
+                // timing options
+                duration: 2000,
+                iterations: 1
+            })
+        }
+        const checkReady = function() {
+            const inputs = document.querySelectorAll("input");
+            let ready = true;
+            inputs.forEach(val => {
+                if(val.type === "checkbox" && !val.checked) {
+                    ready = false;
+                }
+                if(val.type === "range" && val.value < 100) {
+                    ready = false;
+                }
+            });
+
+            if(ready) {
+                const launch = document.getElementById("launch");
+                launch.disabled = false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="space">
+        <div class="planet-area">
+            <img class="planet" src="https://stepik.org/media/attachments/lesson/452681/mars.png" alt="planet">
+            <img class="rocket" src="https://stepik.org/media/attachments/lesson/452681/rocket.png" alt="rocket">
+        </div>
+        <div class="control-panel">
+            <div class="control-panel__inner">
+                <input id="password" type="password" placeholder="Enter password to unlock">
+                <input id="password-cta" type="button" value="OK" onclick="checkPassword()">
+                <div class="check-buttons">
+                    <input type="checkbox" disabled>
+                    <input type="checkbox" disabled>
+                    <input type="checkbox" disabled>
+                    <input type="checkbox" disabled>
+                    <input type="checkbox" disabled>
+                    <input type="checkbox" disabled>
+                </div>
+                <div class="levers">
+                    <input type="range" disabled>
+                    <input type="range" disabled>
+                    <input type="range" disabled>
+                    <input type="range" disabled>
+                    <input type="range" disabled>
+                </div>
+                <input value="Launch" id="launch" type="button" disabled onclick="launch()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

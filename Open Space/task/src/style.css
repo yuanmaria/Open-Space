@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.space {
+    width: 80%;
+    height: 100%;
+    background-repeat: repeat;
+    background-image: url("https://stepik.org/media/attachments/lesson/452681/space.png");
+    display: flex;
+}
+.planet-area {
+    align-self: flex-end;
+    position: relative;
+}
+.planet {
+    width: 50vw;
+}
+.rocket {
+    width: 20vw;
+    position: absolute;
+    bottom: 23vw;
+    left: 25vw;
+    transform: rotate(20deg);
+}
+.control-panel {
+    align-self: center;
+    padding: 12px;
+    width: 1000px;
+    margin-right: 30px;
+    background-image: repeating-linear-gradient(
+            45deg,
+            yellow,
+            yellow 10px,
+            black 5px,
+            black 20px
+    );
+}
+.control-panel__inner {
+    background-color: #343131;
+    text-align: center;
+    padding: 30px;
+}
+    .control-panel__inner > input:first-child {
+        width: 150px;
+        border: 1px solid yellow;
+        background-color: transparent;
+        margin-right: 8px;
+        color: yellow;
+    }
+    .control-panel__inner > input {
+        width: fit-content;
+        background-color: yellow;
+        border: none;
+        box-shadow: none;
+        border-radius: 5px;
+    }
+    .control-panel__inner > input:last-child {
+        background-color: red;
+        color: white;
+        border: 1px solid white;
+        border-radius: 100%;
+        padding: 12px;
+    }
+.check-buttons, .levers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.levers {
+    input {
+        writing-mode: vertical-lr;
+        direction: rtl;
+        appearance: slider-vertical;
+        height: 80px;
+    }
+}

@@ -1,0 +1,15 @@
+type: hyperskill
+title: Open Space
+language: English
+summary: "<p>Have you ever dreamt about exploring deep space? In\_this project, you'll\
+  \ create a simple web game where you\_launch\_a rocket from an uninhabited planet.\
+  \ You don't have to be a rocket scientist to complete this project: we will start\
+  \ from the ground up by learning how to implement an\_HTML skeleton of a\_page and\
+  \ use CSS. Then,\_we'll learn how to make the game interactive with JS, and by\_\
+  the end of the project, you'll have\_a firm knowledge foundation\_for\_developing\
+  \ your\_frontend skills.</p><br/><br/>Learn more at <a href=\"https://hyperskill.org/projects/143?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card\"\
+  >https://hyperskill.org/projects/143</a>"
+programming_language: JavaScript
+content:
+  - Open Space
+mode: Study
